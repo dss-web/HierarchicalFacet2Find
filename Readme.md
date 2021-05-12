@@ -8,6 +8,10 @@ Adds hierarchical faceting to EPiServer Find's .NET API
 In order to build HierarchicalFacet2Find the NuGet packages that it depends on must be restored.
 See http://docs.nuget.org/docs/workflows/using-nuget-without-committing-packages
 
+### Run Tests
+
+see [separat Readme.md](./HierarchicalFacet2Find.Tests/Readme.md).
+
 ### Usage
 
 Add a Hierarchy property to the document:
