@@ -36,9 +36,8 @@
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="EPiServer.Find, Version=10.0.0.3291, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
-      <SpecificVersion>False</SpecificVersion>
-      <HintPath>..\packages\EPiServer.Find.12.7.1\lib\net461\EPiServer.Find.dll</HintPath>
+    <Reference Include="EPiServer.Find, Version=13.4.2.0, Culture=neutral, PublicKeyToken=8fe83dea738b45b7, processorArchitecture=MSIL">
+      <HintPath>..\packages\EPiServer.Find.13.4.2\lib\net461\EPiServer.Find.dll</HintPath>
     </Reference>
     <Reference Include="FluentAssertions">
       <HintPath>..\packages\FluentAssertions.2.0.0.1\lib\net40\FluentAssertions.dll</HintPath>
@@ -90,6 +89,9 @@
       <Project>{189B3257-492F-4D06-B3D5-3BE6177507EB}</Project>
       <Name>HierarchicalFacet2Find</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="license.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Import Project="$(SolutionDir)\.nuget\nuget.targets" />
