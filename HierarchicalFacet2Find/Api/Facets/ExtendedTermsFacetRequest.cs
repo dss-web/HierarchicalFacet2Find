@@ -9,8 +9,7 @@ namespace HierarchicalFacet2Find.Api.Facets
 {
     class ExtendedTermsFacetRequest : TermsFacetRequest
     {
-        public ExtendedTermsFacetRequest(string name) 
-            : base(name)
+        public ExtendedTermsFacetRequest(string name) : base(name)
         {
         }
 
